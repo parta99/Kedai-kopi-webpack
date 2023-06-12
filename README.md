@@ -8,6 +8,5 @@ sesuai dengan Code Requirements:
 English.
 - Added Scroll animation - animate when the element entering the viewport is a
 plus (for example using sal.js - https://mciastek.github.io/sal/).
-- Upload it to Bitbucket and share your repository to themedebug@gmail.com
-Bitbucket and notify us when it is shared
+
 
