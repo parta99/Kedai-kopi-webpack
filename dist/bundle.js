@@ -1,0 +1,1 @@
+(()=>{const n=document.getElementById("button");window.addEventListener("scroll",(function(){window.scrollY>300?n.style.display="block":n.style.display="none"})),n.addEventListener("click",(function(n){n.preventDefault(),window.scrollTo({top:0,behavior:"smooth"})}))})();
