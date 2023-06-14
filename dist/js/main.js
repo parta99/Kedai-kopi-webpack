@@ -7,12 +7,23 @@
   \***************************/
 /***/ (() => {
 
-// main.js
-// import { initScrollToTopButton } from './scrollToTop';
+/*!
 
-// initScrollToTopButton();
-// main.js
+=========================================================
+* Design System - v1.1.0
+=========================================================
 
+
+* Copyright 2023 GEDE Juniada
+* Licensed ISC
+
+* Coded by @djna911
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
 var btn = document.getElementById('button');
 window.addEventListener('scroll', function () {
   if (window.scrollY > 300) {
