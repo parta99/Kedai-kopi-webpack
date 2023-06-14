@@ -174,8 +174,21 @@ body {
   .navbar .navbar-nav .active {
     right: 0;
   }
-  #hamburger-menu {
+  .navbar a {
+    color: var(--bg);
     display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+  .navbar a ::after {
+    transform-origin: 0 0;
+  }
+  .navbar a :hover::after {
+    transform: scaleX(0.2);
+  }
+  #hamburger-menu {
+    display: inline-block;
   }
 }
 @media (min-width: 1024px) {

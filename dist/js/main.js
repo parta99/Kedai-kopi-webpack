@@ -40,6 +40,12 @@ btn.addEventListener('click', function (e) {
   });
 });
 
+// toogle
+var navbarNav = document.querySelector('.navbar-nav');
+document.querySelector('#hamburger-menu').onclick = function () {
+  navbarNav.classList.toggle('active');
+};
+
 /***/ }),
 
 /***/ "./public/css/main.scss":

@@ -77,6 +77,7 @@ body {
   align-items: center;
   padding: 1.4rem 7%;
   -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px); /* Atur tingkat blur di sini */
   background-color: black;
   border-bottom: 1px solid #b6895b;
   position: sticky;
@@ -173,8 +174,21 @@ body {
   .navbar .navbar-nav .active {
     right: 0;
   }
-  #hamburger-menu {
+  .navbar a {
+    color: var(--bg);
     display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+  .navbar a ::after {
+    transform-origin: 0 0;
+  }
+  .navbar a :hover::after {
+    transform: scaleX(0.2);
+  }
+  #hamburger-menu {
+    display: inline-block;
   }
 }
 @media (min-width: 1024px) {

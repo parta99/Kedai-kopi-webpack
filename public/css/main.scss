@@ -86,7 +86,7 @@ body{
     top: 0;
     left: 0;
     right: 0;
-    // z-index: 9999;
+    z-index: 9999;
 
     .nabvar-logo{
         color: $secondary-color;
@@ -115,7 +115,6 @@ body{
         align-items: center;
     }
     .navbar-nav {
-        
         a{
             color: $secondary-color;
             display: inline-block;
@@ -165,14 +164,68 @@ $breakpoint-large: 1024px;
             background-color: $secondary-color;
             width: 30rem;
             height: 100vh;
-            transition-duration: 0.3s;
-            .active {
-                right: 0;
+            transition: 0.3s;
+            a{
+              color: #010101;
+              display: block;
+              margin: 1.5rem;
+              padding: 0.5rem;
+              font-size: 2rem;
             }
+        }
+        .navbar-nav.active{
+          right: 0;
         }
       }
       #hamburger-menu{
-        display: block;
+        display: inline-block;
+      }
+      .content-caption{
+        h1{
+          font-size: 3em;
+        }
+      }
+      .hero {
+        background-position: center; /* Mengatur posisi latar belakang ke tengah */
+        .content {
+          padding: 1.4rem 5%; /* Mengatur padding sesuai kebutuhan di layar mobile */
+          h1 {
+            /* Mengatur gaya huruf di layar mobile */
+            font-size: 2.5em;
+            line-height: 1.4;
+          }
+        }
+        .content-view-menu {
+          padding-top: 10em; /* Mengatur padding sesuai kebutuhan di layar mobile */
+        }
+        .call-to-action {
+          /* Mengatur gaya tombol call-to-action di layar mobile */
+          font-size: 1.2em;
+          letter-spacing: 0.2em;
+        }
+      }
+      .moods{
+        .row{
+          flex-wrap: wrap;
+        }
+      }
+      .blog{
+        .row{
+          flex-wrap: wrap;
+        }
+      }
+      .contact{
+        display: flex;
+        flex-wrap: wrap;
+        .social{
+          display: flex;
+          align-items: center;
+        }
+        .contact-info{
+          p{
+            font-size: large;
+          }
+        }
       }
     }
   
@@ -190,14 +243,45 @@ $breakpoint-large: 1024px;
             background-color: $secondary-color;
             width: 30rem;
             height: 100vh;
-            transition-duration: 0.3s;
-            .active {
-                right: 0;
+            transition: 0.3s;
+            a{
+              color: #010101;
+              display: block;
+              margin: 1.5rem;
+              padding: 0.5rem;
+              font-size: 2rem;
             }
+        }
+        .navbar-nav.active{
+          right: 0;
         }
       }
       #hamburger-menu{
-        display: block;
+        display: inline-block;
+      }
+      .content-caption{
+        h1{
+          font-size: 6em;
+        }
+      }
+      .hero {
+        background-position: center; /* Mengatur posisi latar belakang ke tengah */
+        .content {
+          padding: 1.4rem 5%; /* Mengatur padding sesuai kebutuhan di layar mobile */
+          h1 {
+            /* Mengatur gaya huruf di layar mobile */
+            font-size: 2.5em;
+            line-height: 1.4;
+          }
+        }
+        .content-view-menu {
+          padding-top: 10em; /* Mengatur padding sesuai kebutuhan di layar mobile */
+        }
+        .call-to-action {
+          /* Mengatur gaya tombol call-to-action di layar mobile */
+          font-size: 1.2em;
+          letter-spacing: 0.2em;
+        }
       }
     }
   
@@ -214,6 +298,11 @@ $breakpoint-large: 1024px;
         .navbar-nav{
             display: flex;
             padding-left: 30rem;
+        }
+      }
+      .content-caption{
+        h1{
+          font-size: 8em;
         }
       }
     }
@@ -233,7 +322,7 @@ $breakpoint-large: 1024px;
         padding: 1.4rem 7%;
         h1{
             margin-top: 0;
-            font-size: 8em;
+            // font-size: 8em;
             color: $secondary-color;
             line-height: 4.1;
             font-family: $font-secondary,serif;
@@ -485,15 +574,15 @@ $breakpoint-large: 1024px;
                 font-family: $font-primary;
             }
         }
-        .hover\:animate-pulse {
+        .social-media {
             margin-right: 10px;
           }
           a {
+            background-color: #d1d5db;
             display: flex;
             align-items: center;
             justify-content: center;
             text-decoration: none;
-            color: #b3b1b1;
             font-size: 25px;
             width: 40px;
             height: 40px;
