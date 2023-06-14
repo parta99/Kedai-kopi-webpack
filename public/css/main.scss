@@ -518,7 +518,6 @@ $breakpoint-large: 1024px;
     padding-bottom: 6rem;
     background-color: #1b1b1b;
     display: flex;
-    align-items: center;
     justify-content: center;
     text-align: center;
   
@@ -562,6 +561,7 @@ $breakpoint-large: 1024px;
         padding: 2rem;
         color: $secondary-color;
         display: flex;
+        align-items: center;
         flex-direction: column;
         .contact-social{
             display: flex;
