@@ -80,13 +80,13 @@ body{
     align-items: center;
     padding: 1.4rem 7%;
     backdrop-filter: blur(15px); /* Atur tingkat blur di sini */
-    // background-color: rbga(1,1,1, 0.8);
+    background-color: black;
     border-bottom:  1px solid $primary-color ;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 9999;
+    // z-index: 9999;
 
     .nabvar-logo{
         color: $secondary-color;
