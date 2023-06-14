@@ -1,8 +1,3 @@
-// main.js
-// import { initScrollToTopButton } from './scrollToTop';
-
-// initScrollToTopButton();
-// main.js
 
 const btn = document.getElementById('button');
 

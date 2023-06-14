@@ -171,7 +171,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			return __webpack_require__.O(result);
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunktest_phase_2_sass"] = self["webpackChunktest_phase_2_sass"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunkKedai_kopi"] = self["webpackChunkKedai_kopi"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
